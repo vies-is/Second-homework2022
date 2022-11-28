@@ -344,7 +344,7 @@ body {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 100px 200px 20% 300px 1fr ;
+        grid-template-rows: auto ;
     }
 
     .hero-container {
@@ -434,7 +434,7 @@ body {
     .hero-container {
         display: grid;
         border: #000000 2px solid;
-        grid-template-rows: 40px;
+        grid-template-rows: auto;
         margin: 10px;
         background-color: beige;
         padding: 5px;
