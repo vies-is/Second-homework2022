@@ -69,7 +69,7 @@ body {
     grid-area: myHeader;
 }
 
-.image-container {
+.ad-image-container {
     margin: 10px;
     justify-content: center;
     align-items: center;
@@ -79,11 +79,11 @@ body {
     height: auto;
 }
 
-.image-container {
+.ad-image-container {
     grid-area: myAd1;
 }
 
-.image-container img {
+.ad-image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -189,12 +189,12 @@ body {
 
 }
 
-.image-container:hover .overlay {
+.ad-image-container:hover .overlay {
     width: 110%;
     left: 0;
   }
 
-.image_title {
+.ad-image_title {
     display: flex;
     font-size: 15px;
     position: absolute;
@@ -270,7 +270,7 @@ body {
         
     }
 
-    .image-container {
+    .ad-image-container {
         margin: 10px;
         justify-content: center;
         align-items: center;
@@ -285,11 +285,11 @@ body {
         grid-area: 3 / 1 / 4 / 2;
     }
 
-    .image-container {
+    .ad-image-container {
         grid-area: myAd1;
     }
     
-    .image-container img {
+    .ad-image-container img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -310,12 +310,12 @@ body {
     
     }
     
-    .image-container:hover .overlay {
+    .ad-image-container:hover .overlay {
         width: 110%;
         left: 0;
       }
     
-    .image_title {
+    .ad-image_title {
         display: flex;
         font-size: 15px;
         position: absolute;
@@ -377,12 +377,12 @@ body {
         grid-area: 4 / 1 / 5 / 2;
     }
 
-    .image-container {
+    .ad-image-container {
         margin: 10px;
         position: relative;
     }
 
-    .image-container img {
+    .ad-image-container img {
         width: 70%;
         height: 70%;
         object-fit: cover;
@@ -400,7 +400,7 @@ body {
         transition: .5s ease;
     }
     
-    .image-container:hover .overlay {
+    .ad-image-container:hover .overlay {
         width: 70%;
         left: 0;
         direction: ltr;
